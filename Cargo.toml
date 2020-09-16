@@ -1,13 +1,17 @@
 [package]
-name = "input_board_demo"
+name = "null_chat"
 version = "0.1.0"
-authors = ["TENX-S <ttenx@pm.me>"]
+authors = ["TENX-S <coldswind@pm.me>"]
 edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+tui = "0.10.0"
+rand = "0.7.3"
+chrono = "0.4"
 termion = "1.5.5"
 futures = "0.3.5"
 async-std = "1.6.3"
-rand_pwd = { git = "https://github.com/TENX-S/rand_pwd", branch = "master" }
+unicode-width = "0.1.8"
+rand_key = { git = "https://github.com/TENX-S/rand_key", branch = "master" }
